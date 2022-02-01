@@ -3,7 +3,7 @@ package com.github.tukenuke.tuske.manager.recipe;
 import java.util.*;
 
 import ch.njol.skript.Skript;
-import javafx.util.Pair;
+import ch.njol.util.Pair;
 import org.bukkit.Bukkit;
 import org.bukkit.Keyed;
 import org.bukkit.Material;

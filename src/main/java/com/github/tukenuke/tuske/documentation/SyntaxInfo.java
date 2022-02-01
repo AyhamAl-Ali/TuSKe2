@@ -182,7 +182,7 @@ public class SyntaxInfo {
 		if (Util.notEmpty(syntaxes)) {
 			syntaxes = syntaxes.clone();
 			for (int x = 0; x < syntaxes.length; x++)
-				syntaxes[x] = syntaxes[x].replaceAll("\\\\([()])", "$1").replaceAll("\\d+¦", "");
+				syntaxes[x] = syntaxes[x].replaceAll("\\\\([()])", "$1").replaceAll("\\d+Â¦", "");
 		}
 		return syntaxes;
 	}

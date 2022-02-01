@@ -14,9 +14,9 @@ import javax.annotation.Nullable;
 
 import ch.njol.skript.expressions.base.SimplePropertyExpression;
 import org.bukkit.plugin.java.JavaPlugin;
-import us.myles.ViaVersion.ViaVersionPlugin;
-import us.myles.ViaVersion.api.protocol.ProtocolVersion;
-import us.myles.ViaVersion.bukkit.platform.BukkitViaAPI;
+import com.viaversion.viaversion.ViaVersionPlugin;
+import com.viaversion.viaversion.api.protocol.version.ProtocolVersion;
+import com.viaversion.viaversion.bukkit.platform.BukkitViaAPI;
 
 import java.util.logging.Level;
 

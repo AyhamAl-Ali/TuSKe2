@@ -38,7 +38,7 @@ public class EffCreateClan extends Effect{
 		Player p = (Player) this.p.getSingle(e);
 		String t = (String) this.t.getSingle(e);
 		String n = (String) this.n.getSingle(e);
-		SimpleClans.getInstance().getClanManager().createClan(p, t.replaceAll("&", "�"), n.replaceAll("&", "").replaceAll("�", ""));
+		SimpleClans.getInstance().getClanManager().createClan(p, t.replaceAll("&", "§"), n.replaceAll("&", "").replaceAll("§", ""));
 		
 	}
 

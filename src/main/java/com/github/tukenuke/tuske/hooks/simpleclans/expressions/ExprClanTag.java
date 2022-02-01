@@ -26,7 +26,7 @@ public class ExprClanTag extends SimplePropertyExpression<Clan, String>{
 	@Nullable
 	public String convert(Clan c) {
 	    if (c != null) {
-	    	return c.getColorTag().replaceAll("&", "�");
+	    	return c.getColorTag().replaceAll("&", "§");
 	    }
 	    return null;
 	}
@@ -42,7 +42,7 @@ public void change(Event e, Object[] delta, Changer.ChangeMode mode){
 	if (mode == ChangeMode.SET){
 		Helper.cleanTag(tag);
 		if (c != null && Helper.cleanTag(tag).equals(c.getTag().toLowerCase()) || Helper.cleanTag(tag).toLowerCase().equals(c.getTag().toLowerCase())){
-			c.changeClanTag(tag.replaceAll("&", "�"));
+			c.changeClanTag(tag.replaceAll("&", "§"));
 			SimpleClans.getInstance().getStorageManager().updateClan(c);
 			
 		}
